@@ -11,4 +11,4 @@ It produces a formula that predicts the probability of the class label as a func
 
 Despite the name logistic regression, it is actually a probabilistic classification model. Logistic regression fits a special s-shaped curve by taking the linear regression and transforming the numeric estimate into a probability with the following function:
 
-- <img src="https://latex.codecogs.com/gif.latex?ProbabilityOfaClass = \theta(y) = \frac{e^y}{1 + e^y} = exp(y) / (1 + exp(y)) = p  " />
+![equation](http://www.sciweavers.org/upload/Tex2Img_1601222951/render.png)
