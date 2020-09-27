@@ -21,12 +21,11 @@ In the first file we will plot this equation.
 
 Linear relations were used to try describe and quantify many observable physical phenomena.
 
-In the second file we will see a simple example using a sample dataset.
+In the second file we will see a simple example using a sample dataset. 
 
 ## Dependencies
 
 Packages:
-
 ```
 pip install matplotlib
 pip install pandas
@@ -43,3 +42,26 @@ Dataset:
 ## File Structure (in order)
 
 - 0_plot.py
+- 1_line_regression.py
+
+## Understanding the Data (FuelConsumption.csv)
+
+The file contains model-specific fuel consumption ratings and estimated carbon dioxide emissions for new light-duty veichles for retail sale in Canada
+
+- **MODELYEAR** e.g. 2014
+- **MAKE** e.g Acura
+- **MODEL** e.g ILX
+- **VEICHLE CLASS** e.g SUV
+- **ENGINE SIZE** e.g 4.7
+- **CYLINDERS** e.g 6
+- **TRANSMISSION** e.g A6
+- **FUEL CONSUMPTION in CITY(L/100 km)** e.g 9.9
+- **FUEL CONSUMPTION in HWY(L/100 km)** e.g 8.9
+- **FUEL CONSUMPTION COMB(L/100)** e.g 9.2
+- **CO2 EMISSIONS (g/km)** e.g 182 --> low --> 0
+
+### Credits
+
+Notebook created by: Saeed Aghabozorgi and Rafael Belo Da Silva
+
+Updated to TF 2.X by Samaya Madhavan
