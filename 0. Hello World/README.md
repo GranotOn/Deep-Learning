@@ -4,11 +4,11 @@ We will explore basic TensorFlow syntax and will get familiar with the structure
 
 ## Files structure (in order)
 
-- hello_world.py
-- arrays.py
-- practice.py
-- variables.py
-- operations.py
+- 0_hello_world.py
+- 1_arrays.py
+- 2_practice.py
+- 3_variables.py
+- 4_operations.py
 
 ## What is the meaning of Tensor?
 
