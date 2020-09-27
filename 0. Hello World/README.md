@@ -1,8 +1,14 @@
 # Hello World
 
-As a start we will create a simple program to add 2 constants using TensorFlow.
+We will explore basic TensorFlow syntax and will get familiar with the structure of data.
 
-Even this simple example of adding 2 constants to reach a simple result, defines the basis of TensorFlow.
+## Files structure (in order)
+
+- hello_world.py
+- arrays.py
+- practice.py
+- variables.py
+- operations.py
 
 ## What is the meaning of Tensor?
 
@@ -20,3 +26,30 @@ The word tensor from new latin means "that which stretches". It is a mathematica
 And so on..
 
 ![dimensions_representation](https://c.mql4.com/book/i/59.png)
+
+## Why Tensors?
+
+The tensor structure helps us by giving the freedom to shape the dataset in the way we want.
+
+It is particulary helpful when dealing with images, due to how they are encoded.
+
+Images have height and width, so it is sensible to represent them with a two dimensional structure, such as a matrix. When adding the fact that images have colors (RGB), we need a dimension. That's when Tensors become particulary helpful.
+
+![image_RGB](https://docs.microsoft.com/en-us/windows/win32/wic/graphics/ycbcr1.png)
+
+
+### Credits
+
+Notebook created by: Saeed Aghabozorgi and Rafael Belo Da Silva
+
+Updated to TF 2.X by Samaya Madhavan
+
+### References 
+
+https://www.tensorflow.org/versions/r0.9/get_started/index.html
+http://jrmeyer.github.io/tutorial/2016/02/01/TensorFlow-Tutorial.html
+https://www.tensorflow.org/versions/r0.9/api_docs/python/index.html
+https://www.tensorflow.org/versions/r0.9/resources/dims_types.html
+https://en.wikipedia.org/wiki/Dimension
+https://book.mql4.com/variables/arrays
+https://msdn.microsoft.com/en-us/library/windows/desktop/dn424131(v=vs.85).aspx
