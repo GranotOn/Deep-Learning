@@ -13,4 +13,4 @@ In a fully connected layer NN, each neuron in the current layer is connected to 
 
 In contrast, in a convolutional layer each neuron is only connected to a few nearby local neurons in the previous layer, and the same set of weights is used to connect to them. For example, in the following image, the neurons in the h1 layer are connected only to some input units (pixels).
 
-<img src="https://ibm.box.com/shared/static/mev168hepixnmc9zhh4hsr3t2ks3rpcc.png" alt="HTML5 Icon" style="width: 500px; height: 500px;">
+![convolutional_diagram](https://ibm.box.com/shared/static/mev168hepixnmc9zhh4hsr3t2ks3rpcc.png)
